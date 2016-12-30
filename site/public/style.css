@@ -1,0 +1,76 @@
+.Projects__Projects___3uRwa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Projects__Title___vU5qg {
+  font-size: 32px;
+  color: rgba(3, 204, 133, 0.7);
+}
+
+.Projects__TitleContainer___10Xq- {
+  height: 100px;
+  width: 100%;
+  padding: 10px;
+  background: #efefef;
+}
+.Social__Social___1_otZ {
+  height: 100px;
+  width: 100%;
+  padding: 10px;
+  background: #efefef;
+  margin-bottom: 50px;
+}
+
+.Social__SocialIcons___3drBI {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Social__SocialIcon___2DCMx {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 6%;
+          flex: 0 0 6%;
+}
+
+.Social__SocialIcon___2DCMx svg {
+  fill: rgba(19, 73, 112, 0.95);
+}
+
+.Social__SocialIcon___2DCMx svg:hover {
+  fill: rgb(3, 204, 133);
+}
+.Card__Card___1ayvf {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 33.33%;
+          flex: 1 0 33.33%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.Card__Background___6hI7h {
+  height: 100%;
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  left:0;
+  top:0;
+  -webkit-transition: opacity 0.5s ease 0s;
+  transition: opacity 0.5s ease 0s;
+}
+
+.Card__Description___22k6u {
+  color: #ffffff;
+}
+
+.Card__Image___1S0_x {
+  display: inline-block;
+  vertical-align: middle;
+  height: auto;
+  width: 100%;
+}

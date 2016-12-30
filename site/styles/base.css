@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* {
+  color: #fff;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-sizing:border-box;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+  color: #555;
+}
+
+#root {
+  background: white;
+  margin: 5rem;
+  margin-top: 1rem;
+}

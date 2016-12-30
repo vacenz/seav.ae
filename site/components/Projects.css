@@ -1,0 +1,16 @@
+.Projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Title {
+  font-size: 32px;
+  color: rgba(3, 204, 133, 0.7);
+}
+
+.TitleContainer {
+  height: 100px;
+  width: 100%;
+  padding: 10px;
+  background: #efefef;
+}

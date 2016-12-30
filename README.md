@@ -1,12 +1,17 @@
-# express-boilerplate
-express boilerplate project
+# [svsx.sx](http://svsx.sx)
 
-### install and run
+Just a website for showing off some work...
 
-    npm-install
-    npm-start
-    visit http://localhost:3000/
+## Development
 
-## License
+```
+yarn install
+npm run dev
+open http://127.0.0.1:3000
+```
 
-[MIT](http://isekivacenz.mit-license.org/)
+## Production
+
+```
+npm run site
+```

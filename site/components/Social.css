@@ -1,0 +1,23 @@
+.Social {
+  height: 100px;
+  width: 100%;
+  padding: 10px;
+  background: #efefef;
+  margin-bottom: 50px;
+}
+
+.SocialIcons {
+  display: flex;
+}
+
+.SocialIcon {
+  flex: 0 0 6%;
+}
+
+.SocialIcon svg {
+  fill: rgba(19, 73, 112, 0.95);
+}
+
+.SocialIcon svg:hover {
+  fill: rgb(3, 204, 133);
+}

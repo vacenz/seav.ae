@@ -1,0 +1,27 @@
+.Card {
+  flex: 1 0 33.33%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.Background {
+  height: 100%;
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  left:0;
+  top:0;
+  transition: opacity 0.5s ease 0s;
+}
+
+.Description {
+  color: #ffffff;
+}
+
+.Image {
+  display: inline-block;
+  vertical-align: middle;
+  height: auto;
+  width: 100%;
+}
