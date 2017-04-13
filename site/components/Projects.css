@@ -2,14 +2,23 @@
   display: flex;
   flex-wrap: wrap;
 }
+@media (max-width: 768px) {
+  .Projects {
+    flex-direction: column;
+  }
+}
 
 .Title {
-  font-size: 32px;
+  font-size: 24px;
   color: rgba(3, 204, 133, 0.7);
+  margin: 0;
+}
+.Description {
+  font-size: 22px;
+  margin: 0;
 }
 
 .TitleContainer {
-  height: 100px;
   width: 100%;
   padding: 10px;
   background: #efefef;

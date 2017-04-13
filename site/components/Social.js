@@ -18,9 +18,7 @@ export default class Projects extends Component {
     return (
       <div styleName='Social'>
         <div styleName='SocialIcons'>
-          <a href='http://codepen.io/StevenIseki' styleName='SocialIcon'><Codepen /></a>
           <a href='https://github.com/StevenIseki' styleName='SocialIcon'><Github /></a>
-          <a href='http://jsfiddle.net/user/StevenIseki' styleName='SocialIcon'><JsFiddle /></a>
           <a href='http://stackoverflow.com/users/3709775/steven-iseki' styleName='SocialIcon'><StackOverflow /></a>
           <a href='https://twitter.com/StevenIseki' styleName='SocialIcon'><Twitter /></a>
         </div>

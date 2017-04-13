@@ -17,7 +17,8 @@ export default class Projects extends Component {
       <div styleName='Projects'>
 
         <div styleName='TitleContainer'>
-          <h1 styleName='Title'>svsx.sx</h1>
+          <h1 styleName='Title'>svsx</h1>
+          <p styleName='Description'>steven iseki martin</p>
         </div>
 
         <Social />
@@ -26,19 +27,19 @@ export default class Projects extends Component {
           background='rgba(19, 73, 112, 0.95)'
           title='dekucomponents.com'
           image='http://i.imgur.com/2VgF4Ut.jpg'
-          link='https://github.com/StevenIseki/dekucomponents.com' />
+          link='http://deku.vace.nz/' />
 
         <Card
           background='rgba(19, 73, 112, 0.95)'
           title='cssmodul.es'
           image='http://i.imgur.com/VIU31i9.jpg'
-          link='https://github.com/StevenIseki/cssmodul.es' />
+          link='http://cssmodules.vace.nz/' />
 
         <Card
           background='rgba(19, 73, 112, 0.95)'
-          title='reactcomponents.xyz'
-          image='http://i.imgur.com/x9MDULe.jpg'
-          link='https://github.com/StevenIseki/reactcomponents.xyz' />
+          title='starjs'
+          image='http://i.imgur.com/FlBHLqs.png'
+          link='http://starjs.ooo/' />
 
         <Card
           title='vace.nz'
@@ -46,15 +47,14 @@ export default class Projects extends Component {
           link='http://vace.nz' />
 
         <Card
-          title='pcmusi.cz'
+          title='trac.kz'
           image='http://i.imgur.com/xUnPaBy.png'
-          link='http://pcmusi.cz' />
+          link='http://trac.kz' />
 
         <Card
           title='snvx tumblr'
           image='http://i.imgur.com/rAzeFu9.png'
           link='http://steveniseki.tumblr.com/' />
-
       </div>
     )
   }

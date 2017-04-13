@@ -4,6 +4,12 @@
   margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+  .Card {
+    width: 100%;
+  }
+}
+
 .Background {
   height: 100%;
   padding: 20px;
