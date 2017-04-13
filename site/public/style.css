@@ -5,14 +5,26 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+@media (max-width: 768px) {
+  .Projects__Projects___3uRwa {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 
 .Projects__Title___vU5qg {
-  font-size: 32px;
+  font-size: 24px;
   color: rgba(3, 204, 133, 0.7);
+  margin: 0;
+}
+.Projects__Description___3t7hZ {
+  font-size: 22px;
+  margin: 0;
 }
 
 .Projects__TitleContainer___10Xq- {
-  height: 100px;
   width: 100%;
   padding: 10px;
   background: #efefef;
@@ -32,9 +44,7 @@
 }
 
 .Social__SocialIcon___2DCMx {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 6%;
-          flex: 0 0 6%;
+  width: 3rem;
 }
 
 .Social__SocialIcon___2DCMx svg {
@@ -50,6 +60,12 @@
           flex: 1 0 33.33%;
   position: relative;
   margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .Card__Card___1ayvf {
+    width: 100%;
+  }
 }
 
 .Card__Background___6hI7h {
